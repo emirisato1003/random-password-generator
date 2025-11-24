@@ -93,10 +93,12 @@ const characters = [
 ];
 let first_password = document.getElementById("first-password");
 let second_password = document.getElementById("second-password");
+// let char_length = document.getElementById("charLength");
+let passLength = 15;
 
 function generatePassword() {
   let password = "";
-  for (let i = 0; i < 15; i++) {
+  for (let i = 0; i < passLength; i++) {
     let randomIndex = Math.floor(Math.random() * characters.length);
     password += characters[randomIndex];
   }

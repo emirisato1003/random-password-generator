@@ -1,4 +1,76 @@
 body {
   margin: 0;
-  /* background-color: ; */
+  background-color: #1f2937;
+  color: white;
+  font-family: "Karla", sans-serif;
+}
+
+main {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+section.hero {
+  width: 100%;
+  max-width: 420px;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: 750;
+  margin-bottom: 0;
+}
+
+h1 > span {
+  color: #4adf86;
+}
+
+p {
+  color: lightgray;
+  font-weight: 200;
+  margin-top: 6px;
+}
+
+button {
+  margin-block: 1em;
+  border: none;
+  border-radius: 2px;
+  height: 40px;
+  width: 190px;
+  cursor: pointer;
+  color: white;
+  background-color: #10b981;
+  letter-spacing: 1px;
+}
+
+hr.divider {
+  max-width: 420px;
+  width: 100%;
+}
+
+section.password-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  margin-top: 1em;
+}
+
+.password-container {
+  width: 200px;
+  height: 40px;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 6px;
+}
+
+div#first-password {
+  text-align: center;
+  padding: 0.7rem;
+}
+
+div#second-password {
+  text-align: center;
+  padding: 0.7rem;
 }
