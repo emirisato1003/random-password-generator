@@ -93,7 +93,6 @@ const characters = [
 ];
 let first_password = document.getElementById("first-password");
 let second_password = document.getElementById("second-password");
-// let char_length = document.getElementById("charLength");
 let passLength = 15;
 
 function generatePassword() {
